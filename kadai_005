@@ -1,1 +1,59 @@
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPp0GvJfTH0jxIuc+WVWtKJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kana231210/python-basic-kadai/blob/main/kadai_005\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C67W0QQ6viPF",
+        "outputId": "54e22d70-2ce4-4bdf-c53b-992a2bbff253"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "上底：10\n",
+            "下底：20\n",
+            "高さ：5\n",
+            "台形の面積は75.0c㎠\n"
+          ]
+        }
+      ],
+      "source": [
+        "joutei=input(\"上底：\")\n",
+        "katei=input(\"下底：\")\n",
+        "takasa=input(\"高さ：\")\n",
+        "print(\"台形の面積は\"+str((int(joutei)+int(katei))*int(takasa)/2)+\"c㎠\")"
+      ]
+    }
+  ]
+}
